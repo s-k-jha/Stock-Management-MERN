@@ -1,0 +1,95 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; 
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #2c3e50; 
+}
+
+.App {
+  text-align: center;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; 
+  border-radius: 10px;
+}
+
+h1 {
+  color: #34495e; 
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  /* color: #2980b9; */
+  color: #4c077a;
+  margin-top: 30px;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  /* background-color: #3498db;  */
+  background-color:#4c077a;
+  color: #ffffff; 
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  /* background-color: #2980b9; */
+  background-color:#7826af;
+}
+
+button {
+  /* background-color: #2ecc71;  */
+  background-color: rgb(28, 6, 71);
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #27ae60; 
+  transform: scale(1.05);
+}
+
+nav {
+  background-color: #4c077a;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #ecf0f1; 
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, font-weight 0.2s ease;
+}
+
+nav a:hover {
+  color: #ffffff; 
+  font-weight: 600;
+}
